@@ -1,10 +1,4 @@
-from fastapi import FastAPI
-from core.config import Settings
+import uvicorn
 
-def init_application():
-    app = FastAPI(title=Settings.PROJECT_TITLE, version=Settings.PROJECT_VERSION)
-
-    return app
-
-
-app = init_application()
+if __name__ == "__main__":
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
