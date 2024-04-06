@@ -40,3 +40,22 @@ $ alembic revision --autogenerate -m "commit message"
 ```
 $ alembic upgrade head
 ```
+
+**Use alembic migration after every database model changes.**
+
+## Code Implementation
+1. Create boilerplate code with **main.py**.
+2. Connect with the database.
+3. Add Alembic for database migration.
+4. Create [Models and Schemas](#for-aPIs-implementation)
+5. Create CRUD Utils (repository) and Implement the route.
+
+## For APIs Implementation
+
+URL - https://fastapi.tiangolo.com/tutorial/sql-databases/
+
+These steps are according to this doc.
+
+1. Create SQLAlchemy model [models]
+2. Create Pydantic model [schemas]
+3. CRUD Utils [repository]
