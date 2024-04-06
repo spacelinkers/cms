@@ -24,3 +24,19 @@ $ uvicorn app.main:app --reload
 
 Now finally navigate the ```127.0.0.1:8000/```.
 
+## Alembic Integration
+
+Integrate Alembic with project using the following command. <br />
+```
+$ init alembic
+```
+
+1. Alembic makemigration command
+```
+$ alembic revision --autogenerate -m "commit message"
+```
+
+2. Alembic migrate command
+```
+$ alembic upgrade head
+```
