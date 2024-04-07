@@ -59,3 +59,4 @@ These steps are according to this doc.
 1. Create SQLAlchemy model [models]
 2. Create Pydantic model [schemas]
 3. CRUD Utils [repository]
+4. Use CRUD Utils and implement [CRUD operations](https://fastapi.tiangolo.com/tutorial/sql-databases/#create-data) [router]

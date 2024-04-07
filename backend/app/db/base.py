@@ -1,2 +1,2 @@
-from .base_class import Base
-from .models.post import Post
+from db.base_class import Base
+from db.models.post import Post
