@@ -22,7 +22,5 @@ class ShowPost(PostBase):
     author: str
     create_at: date
 
-    # Need to get data for relationships. Will be used when we introduce User
-    # model.
     class Config():
         orm_mode = True
