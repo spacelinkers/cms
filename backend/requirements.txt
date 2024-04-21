@@ -11,3 +11,9 @@ alembic==1.13.1
 pydantic[email]
 
 passlib[bcrypt]
+
+#JWT-Token
+python-jose
+
+#form-data
+python-multipart
